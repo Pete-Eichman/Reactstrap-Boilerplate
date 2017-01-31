@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Button } from 'reactstrap';
+import Example from './Dropdown'
+
 
 
 class App extends React.Component {
@@ -16,6 +18,7 @@ class App extends React.Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <Button>Button</Button>
+        <Example />
       </div>
     );
   }
